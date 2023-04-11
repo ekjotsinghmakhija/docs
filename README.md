@@ -1,6 +1,6 @@
-# Civo Documentation
+# Backpack Documentation
 
-This repository serves as the source for [Civo](https://www.civo.com) documentation. The source files in the repository are used to render the documentation pages at https://www.civo.com/docs .
+This repository serves as the source for [Backpack](https://www.Backpack.app) documentation. The source files in the repository are used to render the documentation pages at https://www.Backpack.app .
 
 You can contribute to this repository by submitting a Pull Request with your suggested changes. Once merged to the main branch, these changes will be reflected on the site. Read our [contributing document](CONTRIBUTING.md) for more detail.
 

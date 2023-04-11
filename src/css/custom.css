@@ -15,9 +15,9 @@
   --ifm-color-primary-dark: #0d1e2f;
   --ifm-color-primary-darker: #0e1b27;
   --ifm-color-primary-darkest: #0b1219;
-  --ifm-color-primary-light: #239DFF;
-  --ifm-color-primary-lighter: #35a4ff;
-  --ifm-color-primary-lightest: #64b8fd;
+  --ifm-color-primary-light: #e33e3f;
+  --ifm-color-primary-lighter: #e33e3f;
+  --ifm-color-primary-lightest: #e33e3f;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
@@ -26,16 +26,16 @@
   --ifm-color-content: #657388;
   --ifm-color-content-secondary: #718096;
   --ifm-breadcrumb-color-active: #434D5B;
-  --ifm-link-color: #339DFF;
+  --ifm-link-color: #e33e3f;
   --ifm-menu-color: #657388;
-  --ifm-pagination-nav-color-hover: #239DFF;
+  --ifm-pagination-nav-color-hover: #e33e3f;
   --ifm-footer-color: #FFFFFF;
   --ifm-footer-title-color: #FFFFFF;
   --ifm-footer-background-color: #0F273E;
   --ifm-footer-link-color: #FFFFFF;
   --ifm-footer-link-hover-color: #ADCDEB;
-  --ifm-tabs-color-active-border: #239DFF;
-  --ifm-tabs-color-active: #239DFF;
+  --ifm-tabs-color-active-border: #e33e3f;
+  --ifm-tabs-color-active: #e33e3f;
 
   --ifm-hover-overlay: #F1F2F5;
 
@@ -48,9 +48,9 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 html[data-theme='dark'] {
-  --ifm-color-primary: #239DFF;
-  --ifm-color-primary-dark: #35a4ff;
-  --ifm-color-primary-darker: #64b8fd;
+  --ifm-color-primary: #e33e3f;
+  --ifm-color-primary-dark: #e33e3f;
+  --ifm-color-primary-darker: #e33e3f;
   --ifm-color-primary-darkest: #7fc6ff;
   --ifm-color-primary-light: #bebebe;
   --ifm-color-primary-lighter: #d4d4d4;
@@ -63,7 +63,7 @@ html[data-theme='dark'] {
   --ifm-breadcrumb-color-active: #DCDFE5;
   --ifm-menu-color: #DADDE1;
   --ifm-footer-background-color: #2D3138;
-  --ifm-footer-link-hover-color: #239DFF;
+  --ifm-footer-link-hover-color: #e33e3f;
 }
 
 

@@ -8,8 +8,8 @@ const sidebars = {
     },
     {
       type: 'link',
-      label: 'Civo API documentation',
-      href: 'https://www.civo.com/api',
+      label: 'Backpack Extension',
+      href: 'https://chrome.google.com/webstore/detail/backpack/aflkmfhebedbjioipglgcbcmnbpgliof',
     }
   ],
 };

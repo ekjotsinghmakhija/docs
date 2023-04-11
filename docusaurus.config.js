@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Civo Documentation',
-  tagline: 'The Cloud Native Service Provider',
-  url: 'https://www.civo.com',
+  title: 'Backpack Documentation',
+  tagline: 'The home to Xnfts.',
+  url: 'https://www.backpack.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
@@ -25,7 +25,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/civo/docs/tree/main/',
+            'https://www.backpack.app',
           showLastUpdateTime: true,
         },
         blog: false,
@@ -44,13 +44,13 @@ const config = {
     ({
       navbar: {
         logo: {
-          alt: 'Civo Logo',
+          alt: 'Backpack Logo',
           src: 'docusaurus/img/logo.svg',
-          href: 'https://www.civo.com/'
+          href: 'https://www.backpack.app'
         },
         items: [
           {
-            to: 'https://github.com/civo/docs',
+            to: 'https://www.backpack.app',
             position: 'right',
             className: 'navbar-github-link',
           },
@@ -63,35 +63,35 @@ const config = {
             items: [
               {
                 label: 'About',
-                to: 'https://www.civo.com/about',
+                to: 'https://www.backpack.app',
               },
               {
                 label: 'Case studies',
-                to: 'https://www.civo.com/case-studies',
+                to: 'https://www.backpack.app',
               },
               {
                 label: 'White papers',
-                to: 'https://www.civo.com/white-papers',
+                to: 'https://www.backpack.app',
               },
               {
                 label: 'Partners',
-                to: 'https://www.civo.com/partners',
+                to: 'https://www.backpack.app',
               },
               {
                 label: 'Legal',
-                to: 'https://www.civo.com/legal',
+                to: 'https://www.backpack.app',
               },
               {
                 label: 'Newsroom',
-                to: 'https://www.civo.com/newsroom',
+                to: 'https://www.backpack.app',
               },
               {
                 label: 'Brand assets',
-                to: 'https://www.civo.com/brand-assets',
+                to: 'https://www.backpack.app',
               },
               {
                 label: 'Careers',
-                to: 'https://www.civo.com/careers',
+                to: 'https://www.backpack.app',
               },
             ],
           },
@@ -99,20 +99,8 @@ const config = {
             title: 'Products',
             items: [
               {
-                label: 'Kubernetes',
-                to: 'https://www.civo.com/kubernetes',
-              },
-              {
-                label: 'Compute',
-                to: 'https://www.civo.com/compute',
-              },
-              {
-                label: 'Pricing',
-                to: 'https://www.civo.com/pricing',
-              },
-              {
-                label: 'Load balancers',
-                to: 'https://www.civo.com/load-balancers',
+                label: 'Extension',
+                to: 'https://www.backpack.app',
               },
             ],
           },
@@ -120,32 +108,8 @@ const config = {
             title: 'Solutions',
             items: [
               {
-                label: 'Startup solutions',
-                to: 'https://www.civo.com/startups',
-              },
-              {
-                label: 'Startup program',
-                to: 'https://www.civo.com/startup-program',
-              },
-              {
-                label: 'Small and mid-market',
-                to: 'https://www.civo.com/small-mid-market',
-              },
-              {
-                label: 'SaaS companies',
-                to: 'https://www.civo.com/saas',
-              },
-              {
-                label: 'CI/CD and testing',
-                to: 'https://www.civo.com/ci-testing',
-              },
-              {
-                label: 'Move to Kubernetes',
-                to: 'https://www.civo.com/move-to-kubernetes',
-              },
-              {
-                label: 'Consultancy',
-                to: 'https://www.civo.com/kubernetes-consultancy',
+                label: 'Extension',
+                to: 'https://www.backpack.app',
               },
             ],
           },
@@ -154,47 +118,19 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: 'https://www.civo.com/docs',
-              },
-              {
-                label: 'Tutorials',
-                to: 'https://www.civo.com/learn',
-              },
-              {
-                label: 'API',
-                to: 'https://www.civo.com/api',
-              },
-              {
-                label: 'Academy',
-                to: 'https://www.civo.com/academy',
+                to: 'https://www.backpack.app',
               },
               {
                 label: 'Developers',
-                to: 'https://www.civo.com/developers',
-              },
-              {
-                label: 'Meetups',
-                to: 'https://www.civo.com/meetups',
+                to: 'https://www.backpack.app',
               },
               {
                 label: 'Blog',
-                to: 'https://www.civo.com/blog',
-              },
-              {
-                label: 'Ambassadors',
-                to: 'https://www.civo.com/ambassadors',
-              },
-              {
-                label: 'KubeQuest',
-                to: 'https://www.civo.com/kubequest',
+                to: 'https://www.backpack.app',
               },
               {
                 label: 'Write for us',
-                to: 'https://www.civo.com/write-for-us',
-              },
-              {
-                label: 'Developer demo program',
-                to: 'https://www.civo.com/demo-program',
+                to: 'https://www.backpack.app',
               },
             ],
           },
@@ -203,20 +139,20 @@ const config = {
             items: [
               {
                 label: 'Support',
-                to: 'https://www.civo.com/contact',
+                to: 'https://www.backpack.app',
               },
               {
                 label: 'Sales',
-                to: 'https://www.civo.com/sales',
+                to: 'https://www.backpack.app',
               },
               {
                 label: 'Status',
-                to: 'https://status.civo.com',
+                to: 'https://www.backpack.app',
               },
             ],
           },
         ],
-        copyright: `© Civo ${new Date().getFullYear()}. All rights reserved.`,
+        copyright: `© Backpack ${new Date().getFullYear()}. All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
